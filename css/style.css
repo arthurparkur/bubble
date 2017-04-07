@@ -1,0 +1,46 @@
+.container{
+   display: flex;
+   flex-direction: row; 
+   align-items: stretch; 
+   height: 600px;
+}
+.buttons {
+    width: 150px;
+    float: left;
+    background-color: #222930;
+}
+.content {
+    flex: 1;
+    background-color: #222930;
+    border: 2px solid #4EB1BA;
+    display: flex; 
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 50px;
+
+}
+.generate, .sort{
+    cursor: pointer;
+    border-radius: 13px;
+    text-align: center;
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    background-color: #4EB1BA;
+    color: #E9E9E9;
+}
+p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    position: relative;
+    top: 25%;
+}
+.number {
+    width: 40px;
+    height: 40px;
+    background-color: #4EB1BA;
+    font-size: 26pt;
+    margin: 0 auto;
+    color: #E9E9E9;
+    text-align: center;
+    border-radius: 2px;
+}
